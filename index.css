@@ -1117,7 +1117,7 @@ margin-left: 0px;
   .contactcontainer{
     width: 100%;
     height: 100%;
-    padding-bottom: 10%;
+    padding-bottom: 30%;
     background-color: #FDF8F5;
   }
   .contactUs {
@@ -1141,6 +1141,7 @@ margin-left: 0px;
     justify-content: space-between;
     align-items: center;
     background-color: #FDF8F5;
+    height: 100%;
     margin: 0 auto;
     width: 90%; 
 
