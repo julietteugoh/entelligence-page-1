@@ -38,7 +38,7 @@ body{
 }
 
 .bodydiv{
-  margin-top: 50px;
+  margin-top: 20px;
   height: 100%;
   width: 100%;
   display: grid;
@@ -282,7 +282,7 @@ padding: 30px;
   background-color: #FDF8F5;
 }
 .contactUs {
-  /* border: 3px solid red; */
+
   height: 350px;
   width: 40%;
  
@@ -862,7 +862,7 @@ margin-left: 0px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid red; */
+  
   }
   .bodyshell1{
     height: 100%;
@@ -1144,12 +1144,12 @@ margin-left: 0px;
     height: 100%;
     margin: 0 auto;
     width: 90%; 
+    padding-bottom: 40%;
 
   }
   .formfix{
     width: 90%;
-    height: 70%;
-    border: 2px solid red;
+    height: 100%;
     border-radius: 50px;
     background-color: #F7EEE9;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -1160,7 +1160,7 @@ margin-left: 0px;
   }
    .formfix button{
     width: 150px;
-    height:40px;
+    height:5%;
     background-color: #A44910;
     color: white;
     border-radius: 10px;
