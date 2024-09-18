@@ -25,11 +25,3 @@ form.addEventListener('submit', (e) => {
     { e.preventDefault(); TextAreaError.innerHTML = 'Type your complaint or request here'; }
 
 });
-
-
-
-
-
-const check = document.querySelector('.bodyshell1');
-
-check.addEventListener('mouseover', ()=> {check.style.backgroundColor ='green';});
