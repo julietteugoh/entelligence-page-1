@@ -47,7 +47,7 @@
     <button class="btn btn-outline-dark" type="submit">Create an Account</button>
   </div>
   <div class="bodyshell2">
-<img src="africa.png" alt="">
+<img class="bulb" src="africa.png" alt="">
   </div>
 </div>
 </div>
@@ -133,23 +133,27 @@
     <h6><i class="fa-solid fa-envelope" style="color: #A44910;" ></i> info@entelligence.uk</h6>
   </div>
 <div class="formfix container-fluid ">
-  <form class="col-md-10 col-lg-12 col-xl-6 p-3 mx-auto mb-3">
+  <form class="col-md-10 col-lg-12 col-xl-6 p-3 mx-auto mb-3" id="form">
     <h3 style="font-weight: normal; margin: 10px auto; text-align: center;">Send Us A Message Now</h3>
    <div class="form-floating mb-3">
-    <input type="type" class="form-control" id="floatingInput" placeholder="First name">
-    <label for="floatingInput">First name</label>
+    <input type="text" class="form-control" id="Name" placeholder="Name" required>
+    <label for="Name">Your Name</label>
+    <small class="nameError"></small>
   </div>
   <div class="form-floating mb-3">
-    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-    <label for="floatingInput">Email address</label>
+    <input type="email" class="form-control" id="EmailAddress" placeholder="name@example.com" required>
+    <label for="EmailAddress">Email address</label>
+    <small class="emailError"></small>
         </div>
   <div class="form-floating mb-3">
-    <input type="subject" class="form-control" id="floatingInput" placeholder="subject">
-    <label for="floatingInput">Subject</label>
+    <input type="Text" class="form-control" id="Subject" placeholder="subject">
+    <label for="Subject">Subject</label>
+    <small class="subjectError"></small>
   </div>
   <div class="form-floating mb-3">
-    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-    <label for="floatingTextarea2">Your Message</label>
+    <textarea class="form-control" placeholder="Leave a comment here" required id="TextArea" style="height: 100px"></textarea>
+    <label for="TextArea">Your Message</label>
+    <small class="TextAreaError"></small>
   </div>
     <button class="btn btn-outline-dark" type="submit">Submit</button>
 </form>
