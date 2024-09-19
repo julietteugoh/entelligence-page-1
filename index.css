@@ -19,7 +19,7 @@ body{
 .flexd-{
   width: 200px;
 }
-.flexd- button, form form .flexd-{
+.flexd- button, form .flexd-{
   width: 160px;
   background-color: #A44910;
   color: white;
@@ -328,7 +328,7 @@ padding: 30px;
 .form-control{
   border-radius: 20px !important;
 }
- .formfix button{
+  .formfix button{
   width: 150px;
   height:40px;
   background-color: #A44910;
@@ -338,6 +338,9 @@ padding: 30px;
   display: block;
   margin: 20px auto ;
   text-align: center;
+}
+.formfix small{
+  color: red;
 }
 .blackpage{
   width: 100%;
@@ -1167,7 +1170,7 @@ margin-left: 0px;
   .form-control{
     border-radius: 20px !important;
   }
-   .formfix button{
+   .formfix .btn{
     width: 150px;
     height:40px;
     background-color: #A44910;

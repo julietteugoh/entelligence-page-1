@@ -7,7 +7,7 @@ const TextArea = document.querySelector('#TextArea');
 
 const nameError =  document.querySelector('.nameError');
 const emailError =  document.querySelector('.emailError');
-const SubjectError =  document.querySelector('.SubjectError');
+const SubjectError =  document.querySelector('.subjectError');
 const TextAreaError =  document.querySelector('.TextAreaError');
 
 form.addEventListener('submit', (e) => {
@@ -19,7 +19,6 @@ form.addEventListener('submit', (e) => {
 
   if (Subject.value === '' || Subject.value == null) 
     { e.preventDefault(); SubjectError.innerHTML = 'Kindly enter a subject!'; }
-
 
   if (TextArea.value === '' || TextArea.value == null) 
     { e.preventDefault(); TextAreaError.innerHTML = 'Type your complaint or request here'; }
